@@ -1,0 +1,5 @@
+.env
+.venv
+/html
+/json
+crawl.py
