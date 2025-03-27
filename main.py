@@ -1,4 +1,3 @@
-
 """
 ####################
 IMPORTANT: The external files that I query from and write to such as any html, json, or list of professors
@@ -88,13 +87,13 @@ else:
     cookie_jar = LWPCookieJar()
     session.cookies = cookie_jar
 
-    # Focus on authentication-related cookies (these cookies are expired so don't try)
+    # Focus on authentication-related cookies
     cookies_data = [
         # Make sure these are all CURRENT cookies from your authenticated browser session
-        {"name": "ASP.NET_SessionId", "value": "f4im4m0syuggkl1w40tskgzq", "domain": "academicaffairs.ucsd.edu", "path": "/", "secure": True},
-        {"name": "_saml_idp", "value": "dXJuOm1hY2U6aW5jb21tb246dWNzZC5lZHU%3D", "domain": "academicaffairs.ucsd.edu", "path": "/", "secure": True},
-        {"name": "_shibsession_64656661756c7468747470733a2f2f666163756c74796571756974792e756373642e6564752f73686962626f6c6574682d7370", "value": "_5c1d232ec14fe0d3fcb7c9489c1554b8", "domain": "academicaffairs.ucsd.edu", "path": "/", "secure": True},
-        {"name": "svcaaLogin", "value": "4E454A26D0741CFC04D1E956D53FABF9625802CA0FE7D3673BB7B7F644AFACD0C5E1FFF910286B8230B7B3FC0CB7448A67F07AD5DF709D8AFD29E25CD1FC85C21194BEB1E1731558AC09B5A49B47091A493ABFB34C82513512416026B6FCEF2CC32552A7BD4DD6D6A8D85A58957D94EE7BB5614A29157E6D8AAD066C5984904A", "domain": "academicaffairs.ucsd.edu", "path": "/", "secure": True},
+        {"name": "ASP.NET_SessionId", "value": "put value here", "domain": "academicaffairs.ucsd.edu", "path": "/", "secure": True},
+        {"name": "_saml_idp", "value": "put value here", "domain": "academicaffairs.ucsd.edu", "path": "/", "secure": True},
+        {"name": "_shibsession_ domain id goes here", "value": "value goes here", "domain": "academicaffairs.ucsd.edu", "path": "/", "secure": True},
+        {"name": "svcaaLogin", "value": "4A67... value goes here", "domain": "academicaffairs.ucsd.edu", "path": "/", "secure": True},
     ]
 
     for cookie_data in cookies_data:
